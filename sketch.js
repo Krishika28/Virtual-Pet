@@ -64,7 +64,7 @@ else{
   drawSprites();
 }
 function feedDog(){
-  dog.addImage(happyDog);
+  dog.addImage(happy_img);
 
   foodObj.updateFoodStock(foodObj.getfoodstock()-1);
   database.ref('/').update({
